@@ -1,11 +1,12 @@
 import SearchForm from '../components/SearchForm';
+import CocktailList from '../components/CocktailList';
 
 const Home = () => {
   return (
-    <section className="section">
+    <main>
       <SearchForm />
-      <h1 className="section-title">Cocktails</h1>
-    </section>
+      <CocktailList />
+    </main>
   );
 };
 
